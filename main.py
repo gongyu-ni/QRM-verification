@@ -259,6 +259,9 @@ for i in range(len(list_contain_15_bits_a)):
     syn_list_a.append(syn_stabilizer_list(i, list_contain_15_bits_a))
     syn_list_b.append(syn_stabilizer_list(i, list_contain_15_bits_b_r))
 
+# number 0 - 5 represents the combination of Z stabilizers. For instance, [0,1,5] means the first, second, sixth stabilizers are negative
+# syn_list_a: the negative syndrome after Z stabilizer in α state
+# syn_list_b: the negative syndrome after Z stabilizer in β state    
 print(syn_list_a)
 print(syn_list_b)
 
